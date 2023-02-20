@@ -12,9 +12,9 @@ public class LoggingController {
     @GetMapping("/")
     public String metodoLog(){
 
-        LOG.info("This is an info message");
-        LOG.warn("This is a warn message");
-        LOG.error("This is an error message");
+        LOG.info("my info log");
+        LOG.warn("my warn log");
+        LOG.error("my error log");
 
         return "TheLog";
 
